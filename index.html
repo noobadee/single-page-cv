@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- Google Font (Inter) -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        
+        <!-- CDNS Cloudflare - Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+
+        <link rel="stylesheet" href="style.css" />
+
+        <link rel="icon" type="image/png" href="favicon.png" />
+
+        <title>Single-Page Resume</title>
+
+        <meta property="og:title" content="JJ - Software Developer Resume" />
+        <meta property="og:description" content="Resume of JJ - Software Developer" />
+        <meta property="keywords" content="jj, software developer, react, node.js, full stack developer" />
+        <meta property="author" content="JJ" />
+        <meta property="og:type" content="profile" />
+        <meta property="og:url" content="[mysite.com]" />
+        <meta property="og:image" content="favicon.png" />
+        <meta property="og:site_name" content="JJ's Resume" />
+    </head>
+    <body>
+        <div class="outer">
+            <header>
+                <h1>JJ</h1>
+                
+                <address>
+                    <span>Manila, Philippines</span>
+                    <span>&#x2022;</span>
+                    <span>jj@example.com</span>
+                    <span>&#x2022;</span>
+                    <span>+63 123 456 789</span>
+                    <span>&#x2022;</span>
+                    <span>github.com/jj12345</span>
+                </address>
+                
+                <hr>
+            </header>
+    
+            <main>
+                <section class="education">
+                    <h2>Education</h2>
+                    <hr>
+
+                    <div class="education-details">
+                        <div class="space-between">
+                            <h3>Bachelor of Science in Computer Science</h3>
+                            <time datetime="2027-06" class="date">June 2027</time>
+                        </div>
+                        <p>Systems Technology Institute (STI)</p>
+            
+                        <ul>
+                            <li>Relevant Coursework: Data Structures & Algorithms, Database Systems, Web Development, Software Engineering, Computer Networks</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="skills">
+                    <h2>Skills</h2>
+                    <hr>
+                    
+                    <div class="skills-details">
+                        <p><strong>Languages:</strong> TypeScript, JavaScript, HTML, CSS, SQL</p>
+                        <p><strong>Frontend:</strong> React.js, TailwindCSS, Responsive Design</p>
+                        <p><strong>Backend:</strong> Node.js, Express.js, RESTful APIs</p>
+                        <p><strong>Databases:</strong> MongoDB, PostgreSQL</p>
+                        <p><strong>Tools & Platforms:</strong> Git, Docker, AWS (EC2, S3), npm, Postman</p>
+                    </div>
+                </section>
+        
+                <section class="experience">
+                    <h2>Experience</h2>
+                    <hr>
+
+                    <div class="experience-details">
+                        <div class="space-between">
+                            <h3>Software Development Intern</h3>
+                            <span class="date">
+                                <time datetime="2027-01">Jan 2027</time> -
+                                <time datetime="2027-04">Apr 2027</time>
+                            </span>
+                        </div>
+                        <p>TechCorp Solutions Inc.</p>
+                        <p>Makati, Philippines</p>
+            
+                        <ul>
+                            <li>Developed and maintained 5+ responsive web components using React.js and TailwindCSS, improving user interface consistency across the platform by 30%</li>
+                            <li>Built RESTful APIs with Node.js and Express.js to handle user authentication and data management, supporting 1,000 + daily active users</li>
+                            <li>Optimized database queries in PostgreSQL, reducing average response time by 25% and improving application performance</li>
+                            <li>Collaborated with a cross-functional team of 6 developers using Git for version control and participated in daily standup meetings and code reviews</li>
+                            <li>Implemented automated testing using Jest, achieving 80% code coverage and reducing production bugs by 15%</li>
+                        </ul>
+                    </div>
+                </section>
+        
+                <section class="projects">
+                    <h2>Projects</h2>
+                    <hr>
+
+                    <div class="projects-details">
+                        <div>
+                            <div class="space-between">
+                                <h3>Task Management Application | React, Node.js, MongoDB, TailwindCSS</h3>
+                                <span>
+                                    <a class="link" href="#" target="_blank">
+                                        GitHub
+                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                    </a>
+                                </span>
+                            </div>
+            
+                            <ul>
+                                <li>Developed a full-stack task management web app with user authentication, real-time updates, and task categorization features</li>
+                                <li>Implemented JWT-based authentication and authorization, securing user data and sessions</li>
+                                <li>Designed and deployed RESTful API endpoints handling CRUD operations for 100+ test users duing beta testing</li>
+                                <li>Deployed application on AWS EC2 with MongoDB Atlas, ensuring 99.5% uptime</li>
+                            </ul>
+                        </div>
+            
+                        <div>
+                            <div class="space-between">
+                                <h3>E-Commerce Product Dashboard | TypeScript, React, PostgreSQL</h3>
+                                <span>
+                                    <a class="link" href="#" target="_blank">
+                                        GitHub
+                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                    </a>
+                                </span>
+                            </div>
+            
+                            <ul>
+                                <li>Built and admin dashboard for managing product inventory with filtering, sorting, and pagination capabilities</li>
+                                <li>Integrated Chart.js for data visualization, displaying sales analytics and inventory trends</li>
+                                <li>Utilized TypeScript for type-safe code, reducing runtime errors by 40% during development</li>
+                            </ul>
+                        </div>
+            
+                        <div>
+                            <div class="space-between">
+                                <h3>Weather Forecast App | React, External API Integration</h3>
+                                <span>
+                                    <a class="link" href="#" target="_blank">
+                                        Live Demo
+                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                    </a>
+                                </span>
+                            </div>
+            
+                            <ul>
+                                <li>Created a responsive weather application using OpenWeather API with lcoation-based forcasts and 5-day predictions</li>
+                                <li>Implemented debouncing for search optimization, reducing API calls by 60% and improving application efficiency</li>
+                                <li>Designed mobile-first UI with TailwindCSS, ensuring seamless experience across all device sizes</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                
+            </main>
+
+        </div>
+
+    </body>
+</html>
