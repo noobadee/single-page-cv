@@ -22,7 +22,7 @@ body {
 }
 
 .outer {
-    width: 768px;
+    width: clamp(780px, 820px, 1200px);
 }
 
 h1 {
