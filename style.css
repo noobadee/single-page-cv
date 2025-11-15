@@ -1,66 +1,66 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 :root {
-    --text-blue-600: #2563eb;
-    --text-gray-900: #111827;
-    --text-gray-700: #374151;
-    --text-gray-600: #4b5563;
+	--text-blue-600: #2563eb;
+	--text-gray-900: #111827;
+	--text-gray-700: #374151;
+	--text-gray-600: #4b5563;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-    color: #333;
-    font: 16px/1.5 "Inter";
-    margin: 24px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+	color: #333;
+	font: 16px/1.5 "Inter";
+	margin: 24px 0;
 }
 
 .outer {
-    width: clamp(780px, 820px, 1200px);
+	width: clamp(780px, 820px, 1200px);
 }
 
 h1 {
-    text-align: center;
+	text-align: center;
 }
 
 address {
-    display: flex;
-    justify-content: center;
-    gap: 24px;
+	display: flex;
+	justify-content: center;
+	gap: 24px;
 
-    color: var(--text-gray-700);
-    font-style: normal;
+	color: var(--text-gray-700);
+	font-style: normal;
 
-    margin: 24px 0;
+	margin: 24px 0;
 }
 
 header hr {
-    border: none;
-    border: 1px solid var(--text-blue-600);
+	border: none;
+	border: 1px solid var(--text-blue-600);
 }
 
 main {
-    margin: 32px 0;
+	margin: 32px 0;
 }
 
 section {
-    margin-bottom: 32px;
+	margin-bottom: 32px;
 }
 
 section > div {
-    margin: 8px 0;
+	margin: 8px 0;
 }
 
 h2 {
-    color: var(--text-blue-600);
-    text-transform: uppercase;
-    margin-bottom: 8px;
+	color: var(--text-blue-600);
+	text-transform: uppercase;
+	margin-bottom: 8px;
 }
 
 .education-details,
@@ -69,37 +69,37 @@ h2 {
 .experience-details ul,
 .projects-details,
 .projects-details ul {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
 }
 
 main hr {
-    border: none;
-    border: 1px solid #ddd;
+	border: none;
+	border: 1px solid #ddd;
 }
 
 .space-between {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
 ul {
-    margin-left: 32px;
+	margin-left: 32px;
 }
 
 .date {
-    color: var(--text-gray-600);
+	color: var(--text-gray-600);
 }
 
 .link:link,
 .link:visited {
-    color: var(--text-gray-600);
+	color: var(--text-gray-600);
 }
 
 .link:hover,
 .link:focus {
-    color: var(--text-gray-900);
-    text-decoration: none;
+	color: var(--text-gray-900);
+	text-decoration: none;
 }
